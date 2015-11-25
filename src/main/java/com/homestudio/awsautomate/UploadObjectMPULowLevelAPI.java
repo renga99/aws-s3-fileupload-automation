@@ -19,11 +19,11 @@ import com.amazonaws.services.s3.model.UploadPartRequest;
 public class UploadObjectMPULowLevelAPI {
 
     public static void main(String[] args) throws IOException {
-        String existingBucketName  = "testbucketforrengraj"; 
-        String keyName             = "test";
+        String existingBucketName  = "xxxx"; 
+        String keyName             = "xxx";
         String filePath            = "C:\\work\\testfile.txt";   
         
-        AmazonS3 s3Client = new AmazonS3Client(new BasicAWSCredentials("AKIAJBHYBOFO3GDD5Z7A", "an7SuR7fA5eg1at/iZCAgDNHnBEcv+8f+fHofWZ1"));        
+        AmazonS3 s3Client = new AmazonS3Client(new BasicAWSCredentials("xxxxxx", "xxxxx"));        
 
         // Create a list of UploadPartResponse objects. You get one of these
         // for each part upload.

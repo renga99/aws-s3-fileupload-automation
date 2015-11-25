@@ -13,10 +13,10 @@ Step 3 : Enter folder path : /path/to/folder
 
 update bucket name in below variable in App.java
 
-private static String bucketName = "testbucketforrengraj.s3-website-ap-southeast-1.amazonaws.com";
+private static String bucketName = "XXXXXXX.s3-website-ap-southeast-1.amazonaws.com";
 
 Access Key ID:
-AKIAJBHYBOFO3GDD5Z7A
+XXXXXXX
 
 Secret Access Key:
-an7SuR7fA5eg1at/iZCAgDNHnBEcv+8f+fHofWZ1
+XXXXXXX

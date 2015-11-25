@@ -19,8 +19,8 @@ import com.amazonaws.services.s3.model.S3ObjectInputStream;
 
 
 public class GetObject {
-	private static String bucketName = "testbucketforrengraj"; 
-	private static String key        = "awstest";      
+	private static String bucketName = "xxxxxx"; 
+	private static String key        = "xxx";      
 	
 	public static void main(String[] args) throws IOException {
         AmazonS3 s3Client = new AmazonS3Client(new ProfileCredentialsProvider());
